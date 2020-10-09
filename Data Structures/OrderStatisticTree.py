@@ -294,11 +294,3 @@ class OrderStatisticsTree(RedBlackTree.RedBlackTree):
 
 
 
-
-tree = OrderStatisticsTree([11,2,1,7,5,8,14,15])
-print(tree.inorder_walk())
-#tree.insert(4)
-tree.delete(5)
-print(tree.inorder_walk())
-print(tree.select(6))
-print(tree.rank(tree.root))
