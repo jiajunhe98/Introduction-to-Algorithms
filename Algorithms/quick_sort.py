@@ -24,20 +24,3 @@ def quick_sort(list,start = 0, end = None):
     quick_sort(list, start = k+1, end = end)
     return 0
 
-'''
-#test
-a = [1,2,3,2,1,3,2,100,3,53,-20,2,222]
-quick_sort(a)
-print(a)
-print("")
-
-b = []
-import random
-for i in range(int(3*1e4)):
-    b.append(random.randint(-100,100))
-import time
-start = time.time()
-quick_sort(b)
-end = time.time()
-print ("time:"+ str(end -start))
-'''
