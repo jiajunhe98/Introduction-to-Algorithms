@@ -30,18 +30,3 @@ def merge_sort(list):
     return merge_lists(merge_sort(list1),merge_sort(list2))
 
 
-#test
-a = [1,2,3,2,1,3,2,100,3,53,-20,2,222]
-a = merge_sort(a)
-print(a)
-print("")
-
-b = []
-import random
-for i in range(int(1e5)):
-    b.append(random.randint(-100,100))
-import time
-start = time.time()
-b = merge_sort(b)
-end = time.time()
-print ("time:"+ str(end -start))
