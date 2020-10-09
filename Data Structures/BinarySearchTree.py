@@ -208,12 +208,5 @@ class BinarySearchTree:
         return 0
 
 
-a = [100,-20,10,0,1,-201,20,300,-329, 19, 21,22, 18,18.5,19]
-tree = BinarySearchTree(a)
-print(tree.successor_by_key(1).key)
-tree.delete_by_key(100)
-tree.inorder_tree_walk()
-tree.preorder_tree_walk()
-print(tree.successor_by_key(1).key)
 
 
