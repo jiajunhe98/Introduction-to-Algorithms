@@ -6,6 +6,8 @@
 
 
 
+
+
 **The list of algorithms implemented:**
 
 *-Insert sort*
@@ -23,6 +25,8 @@
 *-Selecting order statistics in O(n)*
 
 *-Finding max subarray in O(n)*
+
+
 
 
 
