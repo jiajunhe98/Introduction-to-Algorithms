@@ -24,19 +24,6 @@ def select(list,k,start = 0,end = None):
     return list[k]
 
 
-#test
-a = [1,2,3,2,1,3,2,100,3,53,-20,2,222]
-print(select(a,2))
-print("")
 
-b = []
-import random
-for i in range(int(3*1e4)):
-    b.append(random.randint(-100,100))
-import time
-start = time.time()
-print(select(b,15000))
-end = time.time()
-print ("time:"+ str(end -start))
 
 
