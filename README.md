@@ -1,35 +1,35 @@
 ## Algorithms and Data structures in *Introduction to Algorithms*
 
-<big>This repository implements some of algorithms and data structures in *Introduction to Algorithms* by Python.<big>
+<font size = 4>This repository implements some of algorithms and data structures in *Introduction to Algorithms* by Python.</font>
 
-<big>Comments are always welcomed and highly appreciated.<big>
+<font size = 4>Comments are always welcomed and highly appreciated.</font>
 
 
 
 **The list of algorithms implemented:**
 
-*Insert sort*
+*-Insert sort*
 
-*Heap sort*
+*-Heap sort*
 
-*Quick sort*
+*-Quick sort*
 
-*Merge sort*
+*-Merge sort*
 
-*Bucket sort*
+*-Bucket sort*
 
-*Count sort*
+*-Count sort*
 
-*Selecting order statistics in O(n)*
+*-Selecting order statistics in O(n)*
 
-*Finding max subarray in O(n)*
+*-Finding max subarray in O(n)*
 
 
 
 
 **The list of data structures implemented:**
 
-*Binary Search Tree*
+*-Binary Search Tree*
 
-*Red Black Tree*
+*-Red Black Tree*
 
