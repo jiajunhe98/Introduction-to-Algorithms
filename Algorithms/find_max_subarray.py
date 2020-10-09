@@ -24,20 +24,3 @@ def find_max_subarray(list, print_array = False):
 
 
 
-
-
-
-
-#test
-arr = [-1, -3, 3, 5, -4, 3, 2, -2, 3, 6,100,20,10,-302,-20]
-print(find_max_subarray(arr))
-
-b = []
-import random
-for i in range(int(1e5)):
-    b.append(random.randint(-1000,1000))
-import time
-start = time.time()
-print(find_max_subarray(b))
-end = time.time()
-print ("time:"+ str(end -start))
