@@ -29,19 +29,6 @@ def counting_sort(list):
     return new_list
 
 
-#test
-a = [1,2,3,2,1,3,2,100,3,53,-20,2,222]
-print(counting_sort(a))
-print("")
 
-b = []
-import random
-for i in range(int(1e5)):
-    b.append(random.randint(-100,100))
-import time
-start = time.time()
-newb = counting_sort(b)
-end = time.time()
-print ("time:"+ str(end -start))
 
 
