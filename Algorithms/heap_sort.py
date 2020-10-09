@@ -104,18 +104,3 @@ def heap_sort(list):
     return result
 
 
-#test
-a = [1,2,3,2,1,3,2,100,3,53,-20,2,222,1,131]
-print(heap_sort(a))
-print("")
-
-b = []
-import random
-for i in range(int(1e5)):
-    b.append(random.randint(-10000,10000))
-import time
-start = time.time()
-heap_sort(b)
-end = time.time()
-print ("time:"+ str(end - start))
-
