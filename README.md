@@ -2,7 +2,7 @@
 
 <font size = 6>This repository implements some of algorithms and data structures in *Introduction to Algorithms* by Python.</font>
 
-<font size = 6>Comments are always welcomed and highly appreciated.</font>
+<font size = 6>Comments are always welcomed and highly appreciated :) </font>
 
 
 
