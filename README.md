@@ -8,7 +8,7 @@
 
 
 
-###The list of algorithms implemented:
+### The list of algorithms implemented:
 
 - Insert sort
 
@@ -32,7 +32,7 @@
 
 
 
-###The list of data structures implemented:
+### The list of data structures implemented:
 
 - Binary Search Tree
 
